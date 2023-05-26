@@ -18,7 +18,7 @@ POINT ok;
 HWND hWndListView;
 BOOL underExplorer;
 HMODULE hShDocVwModule;
-std::vector<std::wstring> titles;
+std::vector<HWND> hwnd;
 HMENU hMenu;
 HANDLE hMutex;
 
