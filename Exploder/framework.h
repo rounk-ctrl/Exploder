@@ -13,17 +13,19 @@
 #include <windows.h>
 // C RunTime Header Files
 #include <stdlib.h>
-#include <malloc.h>
-#include <memory.h>
-#include <tchar.h>
+#include <initguid.h>
 #include <list>
 #include <string>
 #include <shellapi.h>
 #include <windowsx.h>
+#include <dwmapi.h>
 #include <CommCtrl.h>
 #include <vector>
+#include <ShObjIdl.h>
+#include <ShlObj.h>
 #include <Uxtheme.h>
 #pragma comment(lib, "Comctl32.lib")
 #pragma comment(lib, "uxtheme.lib")
+#pragma comment(lib, "dwmapi.lib")
 #include <initguid.h>
 #include <objbase.h>

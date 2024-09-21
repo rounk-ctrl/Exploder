@@ -2,7 +2,7 @@
 #define APPBAR_CALLBACK     (WM_USER + 1010)
 BOOL fOnTop = TRUE;
 BOOL uSide = ABE_BOTTOM;
-int cxWidth, cyHeight = 32;
+int cxWidth, cyHeight = 24;
 
 BOOL AppBar_Register(HWND hwnd)
 {

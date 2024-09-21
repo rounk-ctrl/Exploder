@@ -1,5 +1,6 @@
 #pragma once
 #include "framework.h"
+static HWND hTray;
 
 BOOL AppBar_Register(HWND hwnd);
 void AppBar_QueryPos(HWND hwnd, LPRECT lprc);
